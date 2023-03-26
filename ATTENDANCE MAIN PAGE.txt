@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>button</title>
+<style>
+
+body{ 
+           padding:  0;
+           margin: 0;
+           background:#000;}
+button{
+            background-color: transparent; 
+            border: 5px solid white;
+            outline: none;
+            border-radius: 30px;
+           width:160px;
+           color:white ;
+           padding: 16px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+          font-weight: 600;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          padding:10px;
+          left:50%;
+          top:50%;
+          position:fixed;}
+
+button:hover {
+  background-color: white;
+  color: black;}
+
+button:active {
+  background-color: black;
+  border: 5px solid black;
+  color: white;
+  box-shadow: 0 2px #666;
+}
+
+h1{
+     color: white ;
+     font-size: 7em;
+     margin:0;
+     padding: 0;
+     text -align: center;
+     font-family: 'open sans',sans-serif;
+     position: absolute;
+     top:35%;
+     left:35%;}
+
+img{
+         display:block;
+         width:1000px;
+         height:910px;
+         margin-right:100px;
+          background-attachment:fixed;
+         opacity:0.3;}
+
+
+</style>
+</head>
+
+<body>
+<h1>ATTENDANCE</h1>
+<a href="attendance page(original).html">
+<button>View</button>
+</a>
+<img src="attendance.PNG"
+           alt="image not visible ">
+</body>
+</html>

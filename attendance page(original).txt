@@ -1,0 +1,415 @@
+<html>
+<head>
+<title>attendance</title>
+<style type="text/css">
+
+body{
+          padding:  0;
+           margin: 0;
+          background-color:#282828;}
+h1{
+    color:black;
+    font-size:5em;
+   font-family:'open sans';
+   position:absolute;
+   left:3%;
+   top:4.5%;
+   width:70%;
+   font-weight:bolder; }
+
+#t1{
+      color:black;
+      border:1px solid black;
+      height:100%;
+      width:35%;
+      background-color:#D8D8D8;
+      border-collapse:collapse;}
+
+#t2{
+      border: 5px solid white;
+      position:absolute;
+      bottom:30%;
+      left:6%;
+      height:40%;
+      width:20%;
+     border-collapse:collapse;
+      background-color:#484848;
+      border-style: hidden;
+      box- shadow: 0 0 0 2px;
+      border-radius:30px;}
+        
+#tr2{
+        height:60px;}
+
+#td2{
+         color:white;
+         text-align:center;
+         font-size:3em;
+         border:2px solid white;
+         background-color:#303030;
+        border-radius:30px 30px 0px 0px ;}
+
+#td3{
+         font-size:7em;
+        text-align:center;
+       font-weight: bolder;
+       border:2px solid white;
+       color:white;}
+
+#t3{
+      border: 2px solid white;
+      height:30px;
+      width:30px;
+      position:absolute; 
+      top:12%;
+      left:40%;
+      background-color:#228B22;
+      border-radius:10px;}
+
+#u3{
+       position:absolute;
+        left:41%;
+        top:10%;
+        color:white;}
+      
+#t4{
+      border: 2px solid white;
+      height:30px;
+      width:30px;
+      position:absolute; 
+      top:12%;
+      left:55%;
+      background-color:#90EE90;
+       border-radius:10px;}
+
+#u4{
+       position:absolute;
+        left:56%;
+        top:10%;
+       color:white;}
+      
+#t5{
+      border: 2px solid white;
+      height:30px;
+      width:30px;
+       position:absolute; 
+      top:12%;
+      left:70%;
+      background-color:#9999FF;
+      border-radius:10px;}
+
+#u5{
+       position:absolute;
+        left:71%;
+        top:10%;
+       color:white;}
+      
+#t6{
+      border: 2px solid white;
+      height:30px;
+      width:30px;
+      position:absolute; 
+      top:12%;
+      left:85%;
+      background-color:#FF9999;
+      border-radius:10px;}
+
+#u6{
+       position:absolute;
+        left:86%;
+        top:10%;
+      color:white;}
+
+#t7{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:40%;
+     bottom:60%;
+     background-color:white;
+     border-radius: 30px;
+    border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t8{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:40%;
+     bottom:40%;
+    background-color:white;
+     border-radius: 30px;
+    border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t9{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:40%;
+     bottom:20%;
+    background-color:white;
+    border-radius: 30px; 
+    border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t10{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:60%;
+     bottom:60%;
+     background-color:white;
+     border-radius: 30px;
+    border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t11{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:60%;
+     bottom:40%;
+     background-color:white;
+     border-radius: 30px;
+   border-collapse:collapse;
+   border-style: hidden;
+    box- shadow: 0 0 0 2px; }
+
+#t12{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:60%;
+     bottom:20%;
+     background-color:white;
+      border-radius: 30px;
+     border-collapse:collapse;
+     border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t13{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:80%;
+     bottom:60%;
+     background-color:white;
+     border-radius: 30px;
+    border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t14{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:80%;
+     bottom:40%;
+      background-color:white;
+      border-radius: 30px;
+    border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#t15{
+      height:100px;
+      width:300px;
+      border:2px solid black;
+     position:absolute;
+     left:80%;
+     bottom:20%;
+     background-color:white;
+      border-radius: 30px  ;
+     border-collapse:collapse;
+    border-style: hidden;
+    box- shadow: 0 0 0 2px;}
+
+#td7{
+      border:2px solid black;
+      width:40px;
+      height:100px;
+      font-size:2em;
+     color:black;
+     text-align:center;}
+
+#td8{
+        border:2px solid black;
+       color:black;
+      text-align:center;}
+
+#td9{
+      border:2px solid black;
+      width:60px;
+      height:100px;
+     font-size:2em;
+     font-weight:bolder;
+     color:black;
+     background-color:#228B22;
+      border-radius: 0px 30px 30px 0px;}
+
+#td10{
+      border:2px solid black;
+      width:60px;
+      height:100px;
+     font-size:2em;
+     font-weight:bolder;
+     color:black;
+    background-color:#90EE90;
+     border-radius: 0px 30px 30px 0px;}
+
+#td11{
+      border: 2px solid black;
+      width:60px;
+      height:100px;
+     font-size:2em;
+     font-weight:bolder;
+     color:black;
+    background-color:#9999FF;
+     border-radius: 0px 30px 30px 0px;}
+
+#td12{
+      border: 2px solid black;
+      width:60px;
+      height:100px;
+     font-size:2em;
+     font-weight:bolder;
+     color:black;
+     background-color:#FF9999;
+     border-radius: 0px 30px 30px 0px;}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+<h1>ATTENDANCE</h1>
+<table id = "t1">
+<tr >
+<td ></td>
+</tr>
+</table>
+
+<table id = "t2">
+<tr id = "tr2">
+<td id= "td2">OVERALL</td>
+</tr>
+
+<tr id = "tr3">
+<td id= "td3">82%</td>
+</tr>
+</table>
+
+<table id="t3">
+<tr>
+<td ></td>
+</tr>
+</table>
+<ul id = "u3">
+<li>above 90%</li>
+<li>Very good</li>
+</ul>
+
+<table id="t4">
+<tr>
+<td ></td>
+</tr>
+</table>
+<ul id="u4">
+<li>80% -- 90%</li>
+<li> Good</li>
+</ul>
+
+<table id="t5">
+<tr>
+<td></td>
+</tr>
+</table>
+<ul id="u5">
+<li>70% -- 80%</li>
+<li>Average</li>
+</ul>
+
+<table id="t6">
+<tr >
+<td></td>
+</tr>
+</table>
+<ul id="u6">
+<li>Below 70%</li>
+<li>Below average</li>
+</ul>
+
+<table id="t7">
+<tr>
+<td id="td7">1.</td><td id="td8"><b><font size="+3.8"><b>CSE202</font></br>Lecture Attended : 48</br>Total : 51</b></td><td id="td9">94%</td>
+</tr>
+</table>
+
+
+<table id="t8">
+<tr>
+<td id="td7">2.</td><td id="td8"><b><font size="+3.8"><b>ECE216</font></br>Lecture Attended : 20</br>Total : 21</b></td><td id="td9">91%</td>
+</tr>
+</table>
+
+<table id="t9">
+<tr>
+<td id="td7">3.</td><td id="td8"><b><font size="+3.8"><b>MEC103</font></br>Lecture Attended : 32</br>Total : 45</b></td><td id="td11">71%</td>
+</tr>
+</table>
+
+<table id="t10">
+<tr>
+<td id="td7">4.</td><td id="td8"><b><font size="+3.8"><b>CSE326</font></br>Lecture Attended : 20</br>Total : 22</b></td><td id="td10">90%</td>
+</tr>
+</table>
+
+<table id="t11">
+<tr>
+<td id="td7">5.</td><td id="td8"><b><font size="+3.8"><b>PHY109</font></br>Lecture Attended : 30</br>Total : 44</b></td><td id="td12">68%</td>
+</tr>
+</table>
+
+<table id="t12">
+<tr>
+<td id="td7">6.</td><td id="td8"><b><font size="+3.8"><b>PEL130</font></br>Lecture Attended : 35</br>Total : 46</b></td><td id="td11">76%</td>
+</tr>
+</table>
+
+<table id="t13">
+<tr>
+<td id="td7">7.</td><td id="td8"><b><font size="+3.8"><b>ECE213</font></br>Lecture Attended : 28</br>Total : 42</b></td><td id="td12">66%</td>
+</tr>
+</table>
+
+<table id="t14">
+<tr>
+<td id="td7">8.</td><td id="td8"><b><font size="+3.8"><b>MTH166</font></br>Lecture Attended : 36</br>Total : 43</b></td><td id="td10">84%</td>
+</tr>
+</table>
+
+<table id="t15">
+<tr>
+<td id="td7">9.</td><td id="td8"><b><font size="+3.8"><b>PHY119</font></br>Lecture Attended : 21</br>Total : 22</b></td><td id="td9">95%</td>
+</tr>
+</table>
+
+
+</body>
+</html>

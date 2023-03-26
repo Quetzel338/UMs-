@@ -1,0 +1,73 @@
+<html>
+<head>
+<title> click </title>
+<body background="sky1.jpg" link="#000" alink="#017"></body>
+
+
+<p style="text-align:center;"><strong> <b> select assignment number </b> </strong></p>
+
+
+<p style="text-align:center;"> <select multiple size="6">
+          <option value="1"> Assignment_1</option>
+          <option value="2"> Assignment_2</option>
+          <option value="3">Assignment_3</option>
+          <option value="4">Assignment_4</option>
+          <option value="5">Assignment_5</option>
+          <option value="6">Assignment_6</option>
+</select> </p>
+
+
+<body>
+<form action="http://jkorpela.fi/cgi-bin/echo.cgi"
+enctype="multipart/form-data" method="post">
+<p>
+REMARKS:<br>
+<input type="text" name="textline" size="30">
+</p>
+<p>
+Please specify a file, or a set of files:<br>
+<input type="file" name="datafile" size="40">
+</p>
+<div>
+<input type="submit" value="Send">
+</div>
+</body>
+<style>
+.scroll-left {
+ height: 30px;	
+ overflow: hidden;
+ position: relative;
+ background:#82EEFD;
+ color: BLACK;
+ border: 3px white;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 30px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+</style>
+
+<div class="scroll-left">
+<p> VERIFY THE FILE CAREFULLY BEFORE SUBMISSION___***********************************************************___VERIFY BEFORE SUBMISSION </p>
+</div>
+
+</form>
+</head>
+</html>

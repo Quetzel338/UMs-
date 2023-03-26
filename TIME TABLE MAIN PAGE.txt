@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>button</title>
+<style>
+
+body{ 
+           padding:  0;
+           margin: 0;
+           background:#000;}
+
+button{
+            background-color: transparent; 
+            border: 5px solid white;
+            outline: none;
+            border-radius: 30px;
+           width:160px;
+           color:white ;
+           padding: 16px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+          font-weight: 600;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          padding:10px;
+          left:45%;
+          top:50%;
+          position:fixed;}
+
+button:hover {
+  background-color: white;
+  color: black;}
+
+button:active {
+  background-color: black;
+  border: 5px solid black;
+  color: white;
+  box-shadow: 0 2px #666;
+}
+
+h1{
+     color: white ;
+     font-size: 7em;
+     margin:0;
+     padding: 0;
+     text -align: center;
+     font-family: 'open sans',sans-serif;
+     position: absolute;
+     top:35%;
+     left:35%;}
+
+img{
+         display:block;
+         width:1920px;
+         height:967px;
+         margin-right:100px;
+          background-attachment:fixed;}
+
+</style>
+</head>
+
+<body>
+<h1>TIME TABLE</h1>
+<a href="time table(original).html">
+<button>click here</button>
+</a>
+<img src="image 2.jpg"
+           alt="image not visible ">
+</body>
+</html>
+
